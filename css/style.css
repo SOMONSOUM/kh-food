@@ -1,0 +1,110 @@
+body {
+    /* padding-top: 0.3em; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    background-color: white;
+    font-family: 'Battambang', cursive;
+}
+
+.navbar {
+    /* position: absolute;
+    background: none;
+    z-index: 1;
+    top: 0;
+    height: 100px;
+    left: 0; */
+    border-radius: 2px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+.navbar a {
+    /* color: white; */
+}
+
+.cpName {
+    font-family: 'Lobster', cursive;
+    font: bold, !important;
+    font-size: 26px;
+    color: black;
+    /* margin-top: 100px;
+    margin-bottom: 20px;
+    line-height: 30px */
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+}
+
+#navbarSupportedContent {
+    font-family: 'Preahvihear', cursive;
+}
+
+nav {
+    /* margin-top: 20px;
+    background-color: #ffffff; */
+    font-size: 18px;
+}
+
+.slide-img {
+    background-image: url("../img/mbr-1-1620x1080.jpg");
+    height: 85vh;
+    color: white;
+}
+
+.slide-img .over-img a {
+    border: 1px solid white;
+    padding: 10px 15px;
+    background-color: none;
+    border-radius: 20px;
+    font-family: 'Preahvihear', cursive;
+    color: white;
+}
+
+.slide-img .over-img a.active {
+    background-color: green;
+}
+
+.slide-img .over-img p {
+    /* font-family: 'Odor Mean Chey', cursive; */
+    font-family: 'Battambang', cursive;
+    /* font: bold !important; */
+}
+
+.slide-img .over-img span.welcome {
+    font-family: 'Moul', cursive;
+}
+
+#khmerFood {
+    font-size: 50px;
+    /* font-family: 'Arvo', serif; */
+    font-family: 'Lobster', cursive;
+    font: bold, !important;
+}
+
+.over-img {
+    position: absolute;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.item-4 .item {
+    padding: 50px 25px;
+    background-color: #232323;
+    color: white;
+    text-align: center;
+}
+
+.item-4 .item i {
+    font-size: 50px;
+    padding: 20px 0px;
+}
+
+.item-4 .item-even {
+    background-color: #2E2E2E;
+}
+
+.item-2 .item img {}
